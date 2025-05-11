@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="544.0" fitWidth="975.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/multiColoredGreenBackground.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="837.0" layoutY="471.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="79.0" text="others">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="558.0" layoutY="72.0" prefHeight="368.0" prefWidth="349.0" text="Lose Weight&#10;➤ Lower your intake by 500 kcal/day.&#10;➤ Focus on lean protein, veggies, and whole grains.&#10;&#10;Breakfast: 3 egg whites + 1 whole egg (scrambled with spinach), 1 slice whole grain toast, 1 tsp olive oil&#10;Lunch: Grilled chicken breast (150g), ½ cup quinoa, steamed broccoli&#10;Snack: 1 cup 0% fat Greek yogurt + ½ cup berries&#10;Dinner: Baked salmon (120g), mixed vegetables (zucchini, carrots), ½ small sweet potato&#10;Post-workout (optional): Halal whey protein shake with water&#10;&#10;Notes: Avoid fried foods and sugary drinks; hydrate well between meals." />
+      <ImageView fitHeight="253.0" fitWidth="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/RunningExercisingPanda-Photoroom.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" prefHeight="50.0" prefWidth="362.0" style="-fx-background-color: yellow; -fx-background-radius: 10; -fx-border-color: black; -fx-border-radius: 10; -fx-border-width: 3;" text="For lossing weight">
+         <font>
+            <Font name="Cooper Black" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
