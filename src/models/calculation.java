@@ -1,6 +1,6 @@
 package models;
 
-public class calculation extends habit{
+public class BMICalculator extends habit{
    private double bmi;
    double weigth;
    double heigth;
