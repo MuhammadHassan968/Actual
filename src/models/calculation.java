@@ -5,7 +5,7 @@ public class BMICalculator extends habit{
    double weigth;
    double heigth;
 
-    public void bmical(double weight,double heigth){
+    public void bmical (double weight,double heigth){
         this.weigth=weight;
         this.heigth=heigth;
         System.out.println();
